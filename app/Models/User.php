@@ -50,4 +50,21 @@ class User extends Authenticatable
     public function carts(){
         return $this->hasMany(Cart::class, 'user_id');
     }
+
+    public function setNameAttribute($value)
+    {
+        $this->attributes['nama_lengkap'] = $value;
+    }
+
+    // 2. Accessor: Saat sistem memanggil 'name', ambil dari 'nama_lengkap'
+    public function getNameAttribute()
+    {
+        return $this->nama_lengkap;
+    }
+
+    // 3. Konfigurasi Filament: Beritahu Filament kolom mana yang harus ditampilkan sebagai nama di dashboard
+    public function getFilamentName(): string
+    {
+        return $this->nama_lengkap;
+    }
 }
