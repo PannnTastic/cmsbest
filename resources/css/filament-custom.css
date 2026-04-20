@@ -1,0 +1,157 @@
+/* BEST Brand: Primary Putih, Secondary Biru, Third Orange */
+
+/* ===== SIDEBAR HEADER: ORANGE ===== */
+.fi-sidebar-header {
+    background-color: #F97316 !important;
+    color: #ffffff !important;
+}
+
+.fi-sidebar-header .fi-logo,
+.fi-sidebar-header .fi-logo * {
+    color: #ffffff !important;
+}
+
+/* ===== SIDEBAR: PUTIH ===== */
+.fi-sidebar {
+    background-color: #ffffff !important;
+}
+
+.fi-sidebar-nav {
+    background-color: #ffffff !important;
+}
+
+/* Sidebar item default: biru */
+.fi-sidebar-item-label,
+.fi-sidebar-item-icon {
+    color: #0F3075 !important;
+}
+
+/* Active Sidebar Item: orange */
+.fi-sidebar-item-active {
+    background-color: #FFF7ED !important;
+}
+
+.fi-sidebar-item-active .fi-sidebar-item-icon,
+.fi-sidebar-item-active .fi-sidebar-item-label {
+    color: #F97316 !important;
+}
+
+.fi-sidebar-item-active::before {
+    background-color: #F97316 !important;
+}
+
+/* Hover Sidebar Item: orange muda */
+.fi-sidebar-item:hover:not(.fi-sidebar-item-active) {
+    background-color: #FFEDD5 !important;
+}
+
+.fi-sidebar-item:hover:not(.fi-sidebar-item-active) .fi-sidebar-item-label,
+.fi-sidebar-item:hover:not(.fi-sidebar-item-active) .fi-sidebar-item-icon {
+    color: #F97316 !important;
+}
+
+/* ===== TOPBAR: PUTIH ===== */
+.fi-topbar {
+    background-color: #ffffff !important;
+    border-bottom: 3px solid #0F3075 !important;
+}
+
+.fi-topbar * {
+    color: #0F3075 !important;
+}
+
+.fi-topbar-item-active {
+    background-color: #EFF6FF !important;
+    color: #0F3075 !important;
+}
+
+/* ===== PRIMARY BUTTONS: BIRU ===== */
+.fi-btn-color-primary {
+    background-color: #0F3075 !important;
+    color: #ffffff !important;
+    border-color: #0F3075 !important;
+}
+
+.fi-btn-color-primary:hover {
+    background-color: #1e3a8a !important;
+    border-color: #1e3a8a !important;
+}
+
+/* ===== LINKS: BIRU ===== */
+.fi-link {
+    color: #0F3075 !important;
+}
+
+.fi-link:hover {
+    color: #1e3a8a !important;
+}
+
+/* ===== BADGE PRIMARY: BIRU ===== */
+.fi-badge-color-primary {
+    background-color: #EFF6FF !important;
+    color: #0F3075 !important;
+    border-color: #93C5FD !important;
+}
+
+/* ===== FORM FOCUS: BIRU ===== */
+.fi-input:focus,
+.fi-select-input:focus,
+.fi-textarea:focus {
+    border-color: #0F3075 !important;
+    --tw-ring-color: rgba(15, 48, 117, 0.2) !important;
+}
+
+/* ===== TAB ACTIVE: BIRU ===== */
+.fi-tabs-item-active {
+    color: #0F3075 !important;
+    border-color: #0F3075 !important;
+}
+
+/* ===== PAGINATION ACTIVE: BIRU ===== */
+.fi-pagination-item-active {
+    background-color: #0F3075 !important;
+    color: #ffffff !important;
+}
+
+/* ===== CARD / SECTION: BORDER BIRU ===== */
+.fi-section {
+    border-top: 3px solid #0F3075 !important;
+}
+
+.fi-ta-container {
+    border-top: 3px solid #0F3075 !important;
+}
+
+/* ===== PAGE HEADING: BIRU + ORANGE ACCENT ===== */
+.fi-header-heading {
+    position: relative;
+    padding-bottom: 0.5rem;
+    color: #0F3075 !important;
+}
+
+.fi-header-heading::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 3rem;
+    height: 3px;
+    background-color: #F97316;
+    border-radius: 2px;
+}
+
+/* ===== TABLE HEADER: BIRU ===== */
+.fi-ta-header-cell {
+    color: #0F3075 !important;
+    font-weight: 700 !important;
+    background-color: #F8FAFC !important;
+}
+
+/* ===== BREADCRUMB: BIRU ===== */
+.fi-breadcrumbs-item {
+    color: #0F3075 !important;
+}
+
+.fi-breadcrumbs-separator {
+    color: #F97316 !important;
+}
